@@ -1,0 +1,127 @@
+
+.amarillo{
+	background: var(--yellow);
+}
+.gris{
+	background: var(--grey);
+}
+
+.text-center{
+	text-align: center;
+}
+.text-banner{
+	width: 400px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 70px;
+	border-radius: 30px;
+	padding: 20px;
+	display: grid;
+
+}
+.text-banner>button{
+	background: var(--yellow);
+	border-color: var(--yellow);
+	border-radius: 50px;
+}
+.text-banner>button:hover{
+	background: var(--black);
+	border-color: var(--black);
+}
+.text-arrivals{
+	height: 100px;
+}
+.text-arrivals{
+	font-size: 30px;
+}
+.arrivals{
+	padding: 30px;
+	border-radius: 10px;
+	width: 90%;
+	background: #F2F2F2;
+}
+.card-img-top{
+	margin: 10px;
+	width: 200px;
+}
+.img-card{
+	width: 200px;
+}
+.carta{
+	background: white;
+	width: 300px;
+	border-radius: 25px;
+	padding: 15px;
+	-webkit-box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+}
+.img-body{
+	padding: 15px;
+}
+.txt-body{
+	padding: 5px;
+}
+.btn-body{
+	padding: 10px;
+}
+.btn-body>button{
+	width: 200px;
+	border-radius: 50px;
+	background: var(--grey);
+	color: var(--black);
+	border-color: var(--grey);
+}
+.see-body{
+	height: 150px;
+}
+.see-body>button{
+	border-radius: 50px;
+	width: 400px;
+}
+.mapa>iframe{
+	border-radius: 50px;
+}
+.location-body{
+	height: 300px;
+	overflow: hidden;
+}
+.dir-1{
+	background: var(--grey);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: -50px;
+    position: absolute;
+}
+.dir-2{
+	background: var(--yellow);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 20px;
+    width: 470px;
+    text-align: center;
+}
+.img-1{
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
+.img-2{
+    width: 200px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 0;
+}
+.titulo{
+	font-size: 30px;
+	color: var(--black);
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+}

@@ -1,0 +1,29 @@
+.follow{
+	background: var(--yellow);
+	height: 150px;
+}
+
+.redes>.col>a>i{
+	color: white;
+	font-size: 35px;
+}
+.redes>.col>a>i:hover{
+	color: black;
+}
+.redes{
+	width: 800px;
+}
+.footer{
+	background: var(--black);
+	color: var(--yellow);
+	height: 150px;
+}
+.copy{
+	align-items: end;
+}
+.copy>span{
+	margin-bottom: 5px;
+}
+.paypal>i{
+	margin-right: 10px;
+}

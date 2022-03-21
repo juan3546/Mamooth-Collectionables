@@ -1,0 +1,36 @@
+.alerta{
+	background: var(--black);
+	color: var(--yellow);
+	border-color: var(--black);
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.btn-close{
+	color: var(--white);
+	width: 2em;
+}
+.btn-close:hover{
+	color: var(--yellow);
+}
+.alerta>strong>a{
+	color: var(--yellow);
+}
+.navbar{
+	padding: 1rem;
+	background: var(--yellow) !important;
+}
+.navbar-brand>img{
+	width: 100px;
+}
+.nav-link{
+	padding: 0.5rem 6rem;
+	color: black;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: var(--yellow);
+    color: black;
+}
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+}
